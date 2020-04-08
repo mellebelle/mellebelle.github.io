@@ -1,0 +1,105 @@
+img {
+  width: 100%;
+}
+
+main {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: #222;
+}
+
+div {
+  height: 500px;
+  width: 1005;
+}
+
+.title1 {
+  font-family: 'Abril fatface', sans-serif;
+  font-size: 40px;
+  color: #222;
+  position: absolute;
+  bottom: 130px;
+  left: 145px;
+  letter-spacing: 5px;
+}
+
+.title2 {
+  font-family: 'Abril fatface', sans-serif;
+  font-size: 80px;
+  color: #222;
+  position: absolute;
+  bottom: 20px;
+  left: 145px;
+  letter-spacing: 2px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.category {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  
+}
+
+blockquote {
+  font-family: 'Abril fatface', cursive;
+  font-size: 40px;;
+  color: white;
+  background: grey;
+  width: 550px;
+  height: 110px; 
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 40px;
+}
+
+blockquote::before {
+  content: '„';
+  font-size: 150px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-family: 'Abril Fatface', cursive;
+
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+  unicode-bidi:bidi-override;
+  direction:rtl;
+
+  -webkit-transform:rotate(-180deg);
+  -moz-transform:rotate(-180deg);
+  -o-transform:rotate(-180deg);
+  transform:rotate(-180deg);
+  ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
+.subtitle {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.dark {
+  color: black;
+}
+
+ul {
+  list-style-type: square;
+  display: block;
+}
+
+li  {
+  margin: 10px;
+}
